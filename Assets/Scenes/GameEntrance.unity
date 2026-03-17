@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 160, y: -40}
+  m_AnchoredPosition: {x: 175.20001, y: -30.699997}
   m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &10588611
@@ -404,14 +404,6 @@ MonoBehaviour:
     m_Bits: 8
   enSuelo: 0
   recibirDanyo: 0
-  corazones:
-  - {fileID: 141114771}
-  - {fileID: 291431524}
-  - {fileID: 10588611}
-  corazonLleno: {fileID: -3241871148668820093, guid: ac9dbae4e8c400c48b915d7b013b46c6, type: 3}
-  corazonMedio: {fileID: 5679462071319726035, guid: ac9dbae4e8c400c48b915d7b013b46c6, type: 3}
-  corazonVacio: {fileID: 610615411456742443, guid: ac9dbae4e8c400c48b915d7b013b46c6, type: 3}
-  vidaMaxima: 6
 --- !u!1 &140480398
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 40, y: -40}
+  m_AnchoredPosition: {x: 46, y: -30.5}
   m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141114771
@@ -915,7 +907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -40}
+  m_AnchoredPosition: {x: 110.4, y: -30.6}
   m_SizeDelta: {x: 100, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291431524
@@ -956,6 +948,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291431522}
   m_CullTransparentMesh: 1
+--- !u!1 &300230244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 300230246}
+  - component: {fileID: 300230245}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &300230245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300230244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee021178cf513d44862daaf49114ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaxima: 6
+  vidaActual: 0
+  uiManager: {fileID: 391705942}
+--- !u!4 &300230246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300230244}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.274748, y: -0.5302411, z: 0.76007444}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &391705937
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +1007,7 @@ GameObject:
   - component: {fileID: 391705941}
   - component: {fileID: 391705940}
   - component: {fileID: 391705939}
+  - component: {fileID: 391705942}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1062,6 +1102,26 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &391705942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391705937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2984516be0a3a14383baa46b60d977a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corazones:
+  - {fileID: 141114771}
+  - {fileID: 291431524}
+  - {fileID: 10588611}
+  corazonLleno: {fileID: -3241871148668820093, guid: ac9dbae4e8c400c48b915d7b013b46c6, type: 3}
+  corazonMedio: {fileID: 5679462071319726035, guid: ac9dbae4e8c400c48b915d7b013b46c6, type: 3}
+  corazonVacio: {fileID: 610615411456742443, guid: ac9dbae4e8c400c48b915d7b013b46c6, type: 3}
+  menuPausa: {fileID: 816604012}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec175122d0f0d1e419ffd2af1b231245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPausa: {fileID: 816604012}
   juegoPausado: 0
 --- !u!1 &916859567
 GameObject:
@@ -1473,7 +1532,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 960134436}
         m_TargetAssemblyTypeName: PausarJuego, Assembly-CSharp
-        m_MethodName: Pausar
+        m_MethodName: PausarBoton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1565,7 +1624,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec175122d0f0d1e419ffd2af1b231245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPausa: {fileID: 816604012}
   juegoPausado: 0
 --- !u!1 &1026839471
 GameObject:
@@ -2377,7 +2435,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 960134436}
         m_TargetAssemblyTypeName: PausarJuego, Assembly-CSharp
-        m_MethodName: Reanudar
+        m_MethodName: ReanudarBoton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7159,3 +7217,4 @@ SceneRoots:
   - {fileID: 593802944}
   - {fileID: 273522363}
   - {fileID: 152633497}
+  - {fileID: 300230246}
