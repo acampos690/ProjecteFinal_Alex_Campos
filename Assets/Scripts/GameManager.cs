@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -56,19 +56,6 @@ public class GameManager : MonoBehaviour
 
         if (vidaActual < 0)
             vidaActual = 0;
-
-        if (uiManager != null)
-        {
-            uiManager.ActualizarCorazones(vidaActual, vidaMaxima);
-        }
-    }
-
-    public void CurarJugador(int cantidad)
-    {
-        vidaActual += cantidad;
-
-        if (vidaActual > vidaMaxima)
-            vidaActual = vidaMaxima;
 
         if (uiManager != null)
         {
