@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class PlayerController : MonoBehaviour
 {
@@ -105,7 +106,21 @@ public class PlayerController : MonoBehaviour
     {
         muerto = true;
         animator.SetBool("muerto", true);
-        gameObject.layer = LayerMask.NameToLayer("PlayerDead");
+
+        GameManager.Instance.RespawnJugador(); // Llamar al método de respawn en GameManager
+    }
+
+    public void Respawn (Vector3 posicionCheckpoint)
+    {
+        muerto = false;
+        recibirDanyo = false;
+        atacando = false;
+
+        transform.position = posicionCheckpoint;
+        rb.linearVelocity = Vector2.zero;
+
+        animator.SetBool("muerto", false);
+        animator.SetBool("recibirDanyo", false);
     }
 
     public void Atacando()

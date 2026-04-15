@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public Transform player;
+    private Transform player;
     public float detectarPlayer;
     public float speed;
     public int vida = 3;
@@ -20,6 +20,9 @@ public class EnemyController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        // Busca al objeto que tenga el Tag "Player" y guarda su Transform
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()
