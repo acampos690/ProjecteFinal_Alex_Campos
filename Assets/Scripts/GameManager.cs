@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [Header("Configuración API")]
     // Cambia el puerto si es necesario
     public string baseUrl = "https://localhost:44351/api/Estadisticas";
+    public string progresoUrl = "https://localhost:44351/api/Progreso";
 
     [Header("Vida")]
     public int vidaMaxima = 6;
@@ -26,17 +27,32 @@ public class GameManager : MonoBehaviour
     [Header("Datos Usuario")]
     public int usuarioID = 1; // ID de tu tabla MySQL
 
+    [System.Serializable]
+    public class DatosVida
+    {
+        // Datos de la tabla EstadisticasJugador
+        public int vida_actual;
+        public int vida_max;
+    }
+
+    public bool debeCargarPartida = false;
+    public bool modoCargaActivado = false; // Solo true cuando pulsas "Cargar Partida"
+
+    [System.Serializable]
+    public class ProgresoJugador
+    {
+        // Datos de la tabla ProgresoJugador
+        public string escena_nombre;
+        public int nivel;
+        public float respawn_x;
+        public float respawn_y;
+        public float respawn_z;
+    }
+
     // --- CLASE AUXILIAR PARA EL CERTIFICADO SSL ---
     public class BypassCertificate : CertificateHandler
     {
         protected override bool ValidateCertificate(byte[] certificateData) => true;
-    }
-
-    // --- CLASE PARA DESERIALIZAR EL JSON DE LA API ---
-    private class EstadisticasData
-    {
-        public int vida_actual { get; set; }
-        public int vida_max { get; set; }
     }
 
     void Awake()
@@ -55,8 +71,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Cargar vida desde la base de datos MySQL a través de la API
-        StartCoroutine(CargarVidaDesdeAPI());
 
         BuscarUIManager();
 
@@ -70,15 +84,84 @@ public class GameManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         BuscarUIManager();
-        if (uiManager != null)
+
+        // Si entramos al menú, reseteamos flags para evitar bucles
+        if (scene.name == "Menu")
         {
-            uiManager.ActualizarCorazones(vidaActual, vidaMaxima);
+            debeCargarPartida = false;
+            modoCargaActivado = false;
+            return;
+        }
+
+        // Solo posicionamos y cargamos vida si venimos de pulsar "Continuar" o "Cargar"
+        if (debeCargarPartida)
+        {
+            StartCoroutine(FinalizarCargaYPosicionar());
         }
     }
 
-    void BuscarUIManager()
+    // Corrutina para asegurar que el Player existe antes de moverlo
+    IEnumerator FinalizarCargaYPosicionar()
     {
-        uiManager = Object.FindFirstObjectByType<UIManager>();
+        // Esperamos a que termine el frame de carga
+        yield return new WaitForEndOfFrame();
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            // Teletransporte
+            player.transform.position = new Vector3(checkpointPosicion.x, checkpointPosicion.y + 0.5f, checkpointPosicion.z);
+            Debug.Log("Jugador teletransportado a: " + player.transform.position);
+        }
+
+        // Cargamos la vida después del TP
+        yield return StartCoroutine(CargarVidaDesdeAPI());
+
+        // Reset de flags
+        debeCargarPartida = false;
+        modoCargaActivado = false;
+    }
+
+
+    // Modifica este método para que sea un Reset Real
+    public void ResetearDatosPartidaNueva()
+    {
+        debeCargarPartida = false;
+        modoCargaActivado = false;
+
+        vidaActual = vidaMaxima;
+
+        //reset posición
+        checkpointPosicion = Vector3.zero;
+
+        //limpiar checkpoint
+        checkpointActual = null;
+
+        Debug.Log("Nueva partida reseteada en memoria.");
+    }
+    void ActualizarPosicionInicial() //pone la posicion en la que esta colocada desde el unity
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            checkpointPosicion = player.transform.position;
+            Debug.Log("Posición inicial guardada: " + checkpointPosicion);
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró al Player para establecer la posición inicial.");
+        }
+    }
+
+    public void BuscarUIManager()
+    {
+        //se busca el script en la escena 
+        uiManager = GameObject.FindAnyObjectByType<UIManager>();
+
+        if (uiManager == null)
+        {
+            Debug.LogWarning("Ojo: No hay UIManager en esta escena.");
+        }
     }
 
     public void DanarJugador(int cantidad)
@@ -92,9 +175,6 @@ public class GameManager : MonoBehaviour
         {
             uiManager.ActualizarCorazones(vidaActual, vidaMaxima);
         }
-
-        // Guardar vida en MySQL cada vez que cambia
-        StartCoroutine(GuardarVidaEnAPI());
     }
 
     public void PausarJuego(bool pausar)
@@ -121,7 +201,7 @@ public class GameManager : MonoBehaviour
     IEnumerator RespawnCoroutine()
     {
 
-        // 1. Detenemos cualquier intento de carga que pueda estar en curso
+        //detenemos cualquier intento de carga que pueda estar en curso
         StopCoroutine(nameof(CargarVidaDesdeAPI));
 
         yield return new WaitForSeconds(1f);
@@ -148,68 +228,119 @@ public class GameManager : MonoBehaviour
         // Guardar vida reseteada en BD
         StartCoroutine(GuardarVidaEnAPI());
     }
+    public void BotonGuardar()
+    {
+        Debug.Log("Guardando..");
+        StartCoroutine(GuardarVidaEnAPI());
+        StartCoroutine(GuardarProgresoEnAPI());
+    }
+
+    public void BotonCargarPartida()
+    {
+        modoCargaActivado = true;
+        debeCargarPartida = true;
+        StartCoroutine(CargarProgresoDesdeAPI());
+    }
+
+    public void BotonSalir()
+    {
+        SceneManager.LoadScene("Menu");
+
+        Time.timeScale = 1f;//devuelvo el timepo a la normalidad
+
+        Cursor.lockState = CursorLockMode.None; //para que el raton sea visible otra vez 
+        Cursor.visible = true;
+    }
 
     IEnumerator GuardarVidaEnAPI()
     {
-        // Construimos la ruta exacta de tu Controller: api/Estadisticas/ActualizarVida/{usuarioId}/{vida}
         string url = $"{baseUrl}/ActualizarVida/{usuarioID}/{vidaActual}";
-
-        // Usamos PUT porque tu API espera un HttpPut
         using (UnityWebRequest www = UnityWebRequest.Put(url, ""))
         {
             www.certificateHandler = new BypassCertificate();
-
             yield return www.SendWebRequest();
-
-            if (www.result != UnityWebRequest.Result.Success)
-            {
-                Debug.LogError("Error al guardar en MySQL: " + www.error);
-            }
-            else
-            {
-                Debug.Log("Vida actualizada en MySQL con éxito.");
-            }
         }
     }
 
-    IEnumerator CargarVidaDesdeAPI()
+    IEnumerator GuardarProgresoEnAPI()
     {
-        // Ruta para obtener datos: api/Estadisticas/ObtenerVida/{usuarioId}
-        string url = $"{baseUrl}/ObtenerVida/{usuarioID}";
+        string nombreEscenaActual = SceneManager.GetActiveScene().name;
+        if (nombreEscenaActual == "Menu") yield break;
 
+        string x = checkpointPosicion.x.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        string y = checkpointPosicion.y.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        string z = checkpointPosicion.z.ToString(System.Globalization.CultureInfo.InvariantCulture);
+
+        string url = $"{progresoUrl}/Actualizar/{usuarioID}/1/{nombreEscenaActual}/{x}/{y}/{z}";
+
+        using (UnityWebRequest www = UnityWebRequest.Put(url, ""))
+        {
+            www.certificateHandler = new BypassCertificate();
+            yield return www.SendWebRequest();
+        }
+    }
+
+    
+
+    public IEnumerator CargarProgresoDesdeAPI()
+    {
+        string url = $"{progresoUrl}/Obtener/{usuarioID}";
         using (UnityWebRequest www = UnityWebRequest.Get(url))
         {
             www.certificateHandler = new BypassCertificate();
-
             yield return www.SendWebRequest();
 
             if (www.result == UnityWebRequest.Result.Success)
             {
-                try
-                {
-                    // Leemos el JSON que devuelve la API
-                    var datos = JsonConvert.DeserializeObject<EstadisticasData>(www.downloadHandler.text);
+                var datos = JsonConvert.DeserializeObject<ProgresoJugador>(www.downloadHandler.text);
+                checkpointPosicion = new Vector3(datos.respawn_x, datos.respawn_y, datos.respawn_z);
 
-                    vidaActual = datos.vida_actual;
-                    // vidaMaxima = datos.vida_max; // Opcional si quieres cargar también el tope
+                // Cambiamos de escena. Al terminar, OnSceneLoaded se encargará de la vida y posición
+                SceneManager.LoadScene(datos.escena_nombre);
+            }
+        }
+    }
 
-                    Debug.Log($"Datos cargados de MySQL. Vida actual: {vidaActual}");
-                }
-                catch
-                {
-                    Debug.LogError("Error al procesar el JSON de la API");
-                    vidaActual = vidaMaxima;
-                }
+    public IEnumerator CargarVidaDesdeAPI()
+    {
+        string url = $"{baseUrl}/ObtenerVida/{usuarioID}";
+        using (UnityWebRequest www = UnityWebRequest.Get(url))
+        {
+            www.certificateHandler = new BypassCertificate();
+            yield return www.SendWebRequest();
+
+            if (www.result == UnityWebRequest.Result.Success)
+            {
+                var datos = JsonConvert.DeserializeObject<DatosVida>(www.downloadHandler.text);
+                vidaActual = datos.vida_actual;
+                if (uiManager != null) uiManager.ActualizarCorazones(vidaActual, vidaMaxima);
+            }
+        }
+    }
+
+    public IEnumerator ResetearProgresoEnAPI()
+    {
+        string escenaInicial = "GameEntrance";
+
+        string x = "0";
+        string y = "0";
+        string z = "0";
+
+        string url = $"{progresoUrl}/Actualizar/{usuarioID}/1/{escenaInicial}/{x}/{y}/{z}";
+
+        using (UnityWebRequest www = UnityWebRequest.Put(url, ""))
+        {
+            www.certificateHandler = new BypassCertificate();
+            yield return www.SendWebRequest();
+
+            if (www.result == UnityWebRequest.Result.Success)
+            {
+                Debug.Log("Progreso reseteado en la BD.");
             }
             else
             {
-                Debug.LogWarning("No se pudo conectar con la API para cargar. Usando valores por defecto.");
-                vidaActual = vidaMaxima;
+                Debug.LogError("Error al resetear progreso: " + www.error);
             }
         }
-
-        // Refrescar UI tras la carga
-        if (uiManager != null)
-            uiManager.ActualizarCorazones(vidaActual, vidaMaxima);
     }
 }

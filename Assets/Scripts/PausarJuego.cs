@@ -23,4 +23,14 @@ public class PausarJuego : MonoBehaviour
         juegoPausado = false;
         GameManager.Instance.PausarJuego(false);
     }
+
+    public void GuardarBoton()
+    {
+        GameManager.Instance.BotonGuardar();
+    }
+
+    public void SalirBoton()
+    {
+        GameManager.Instance.BotonSalir();
+    }
 }

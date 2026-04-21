@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 53810432979a1504a867df3287e6a665
+guid: c3892dfc49942b149b482359428b252c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8369747731967950312
-    second: Airbrush-IMAGE-ENHANCER-1774372941270-1774372941270_0
+      213: -5125653066070347888
+    second: Gemini_Generated_Image_sqepg2sqepg2sqep-removebg-preview (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Airbrush-IMAGE-ENHANCER-1774372941270-1774372941270_0
+      name: Gemini_Generated_Image_sqepg2sqepg2sqep-removebg-preview (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3426
-        height: 1912
+        width: 1176
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8124b6858cea8db80800000000000000
-      internalID: -8369747731967950312
+      spriteID: 09f2cfa71b50ed8b0800000000000000
+      internalID: -5125653066070347888
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Airbrush-IMAGE-ENHANCER-1774372941270-1774372941270_0: -8369747731967950312
+      Gemini_Generated_Image_sqepg2sqepg2sqep-removebg-preview (1)_0: -5125653066070347888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

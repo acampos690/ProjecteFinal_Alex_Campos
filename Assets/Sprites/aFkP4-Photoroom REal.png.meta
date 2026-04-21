@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bcf17112d4507f945b6d04f7059d2205
+guid: bd8238b782005a64d946462fe0da8d2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3942728386663486279
-    second: ChatGPT_Image_3_mar_2026__16_53_19-removebg-preview_0
+      213: -7126622408611621710
+    second: aFkP4-Photoroom REal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT_Image_3_mar_2026__16_53_19-removebg-preview_0
+      name: aFkP4-Photoroom REal_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 183
-        width: 313
-        height: 133
+        x: 0
+        y: 0
+        width: 2400
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bce21bfb6d9849c0800000000000000
-      internalID: -3942728386663486279
+      spriteID: 2b49d568da6291d90800000000000000
+      internalID: -7126622408611621710
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT_Image_3_mar_2026__16_53_19-removebg-preview_0: -3942728386663486279
+      aFkP4-Photoroom REal_0: -7126622408611621710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
