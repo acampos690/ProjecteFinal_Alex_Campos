@@ -71,7 +71,7 @@ Estadístiques
 
 Quan el jugador torna a iniciar sessió, el progrés es carrega automàticament.
 
-⚙️ Sistema d’ajustos
+Sistema d’ajustos
 
 El joc permet modificar:
 
