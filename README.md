@@ -21,7 +21,6 @@ Nom d’usuari
 Contrasenya
 Prémer el botó de registre
 
-(Images/imagen2.png)
 Si el registre és correcte, el compte quedarà guardat a la base de dades.
 
 2. Iniciar sessió
@@ -31,7 +30,7 @@ Després del registre:
 Entrar al menú Login
 Escriure el nom d’usuari i la contrasenya
 Prémer el botó d’iniciar sessió
-(Images/IMAGEN1.png)
+
 Quan el login és correcte, el jugador accedeix al joc i es carreguen automàticament les seves dades guardades.
 
 ⌨️ Controls del joc
