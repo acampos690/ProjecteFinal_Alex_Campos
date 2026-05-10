@@ -14,23 +14,19 @@ public class UIManager : MonoBehaviour
     public GameObject menuPausa;
 
     public static UIManager Instance;
+
     public TextMeshProUGUI textoMonedas;
 
     void Awake()
     {
-        //sitodavía no hay ningún UIManager global
+        // Singleton para que solo exista un UIManager
         if (Instance == null)
-        {
-            //guardamos este objeto como el único Instance
             Instance = this;
-        }
         else
-        {
-            //si ya existe otro UIManager, destruimos este para evitar duplicados
             Destroy(gameObject);
-        }
     }
 
+    // Actualiza la UI de vida con corazones
     public void ActualizarCorazones(int vidaActual, int vidaMaxima)
     {
         int vidaTemp = vidaActual;
@@ -52,23 +48,21 @@ public class UIManager : MonoBehaviour
                 corazones[i].sprite = corazonVacio;
             }
         }
-
-        Debug.Log("UI actualiza corazones. Vida: " + vidaActual);
-
     }
 
+    // Muestra u oculta el menú de pausa
     public void MostrarMenuPausa(bool mostrar)
     {
         if (menuPausa != null)
             menuPausa.SetActive(mostrar);
     }
 
+    // Actualiza el contador de monedas en pantalla
     public void ActualizarTextoMonedas(int monedas)
     {
         if (textoMonedas != null)
         {
-            // Concatenamos la 'x' con el número
-            textoMonedas.text = "x" + monedas.ToString();
+            textoMonedas.text = "x" + monedas;
         }
     }
 }

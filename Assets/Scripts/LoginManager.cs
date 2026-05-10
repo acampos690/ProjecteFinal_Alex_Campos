@@ -1,6 +1,5 @@
 using Newtonsoft.Json;
 using System.Collections;
-using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -9,39 +8,26 @@ using UnityEngine.UI;
 
 public class LoginManager : MonoBehaviour
 {
-    [Header("UI References")]
+    [Header("UI")]
     public TMP_InputField inputUsuario;
     public TMP_InputField inputPassword;
-    public TextMeshProUGUI textoError; // Para avisar si la clave está mal
+    public TextMeshProUGUI textoError;
     public Button botonEntrar;
 
-    [Header("Panel Registro")]
+    [Header("Registro")]
     public GameObject panelRegistrar;
     public TMP_InputField regUsuario;
     public TMP_InputField regPassword;
     public TextMeshProUGUI textoErrorRegistro;
-
-    [System.Serializable]
-    public class User
-    {
-        public int id;
-        public string username;
-    }
-
-    public class Register
-    {
-        public string Username;
-        public string Password;
-    }
 
     const string link = "http://AdventureTime.somee.com";
 
     private string loginUrl = $"{link}/publish/api/Users/login";
     private string urlRegistro = $"{link}/publish/api/Users/register";
 
- 
     void Start()
     {
+        // Listener del botón de login
         textoError.text = "";
         botonEntrar.onClick.AddListener(OnBotonLoginClick);
     }
@@ -51,6 +37,7 @@ public class LoginManager : MonoBehaviour
         StartCoroutine(ProcesoLogin());
     }
 
+    // LOGIN
     IEnumerator ProcesoLogin()
     {
         string user = inputUsuario.text;
@@ -58,54 +45,46 @@ public class LoginManager : MonoBehaviour
 
         if (string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pass))
         {
-            textoError.text = "¡Introduce usuario y contraseña!";
+            textoError.text = "Introduce usuario y contraseña";
             yield break;
         }
 
-        // Construimos la URL: api/users/login/nombre/password
         string urlFinal = $"{loginUrl}/{user}/{pass}";
 
         using (UnityWebRequest www = UnityWebRequest.Get(urlFinal))
         {
-            // Reutilizamos tu clase para saltar el certificado SSL si es necesario
             www.certificateHandler = new GameManager.BypassCertificate();
 
             yield return www.SendWebRequest();
 
             if (www.result == UnityWebRequest.Result.Success)
             {
-                // 1. Convertimos la respuesta de la API a nuestro objeto User
-                User usuarioLogueado = JsonConvert.DeserializeObject<User>(www.downloadHandler.text);
+                // Guardo datos del usuario logueado
+                User usuario = JsonConvert.DeserializeObject<User>(www.downloadHandler.text);
+                GameManager.Instance.usuarioID = usuario.id;
 
-                // 2. IMPORTANTE: Guardamos el ID en el GameManager para que persista
-                GameManager.Instance.usuarioID = usuarioLogueado.id;
-
-                Debug.Log($"Bienvenido {usuarioLogueado.username}. ID guardado: {usuarioLogueado.id}");
-
-                // 3. Vamos al Menú de Inicio
+                // Cambio a escena del menú
                 SceneManager.LoadScene("Menu");
             }
             else
             {
-                // Si la API devuelve 401 Unauthorized o error
                 textoError.text = "Usuario o contraseña incorrectos";
-                Debug.LogError("Error Login: " + www.error);
             }
         }
     }
 
-        public void BotonAbrirRegistrar()
-        {
-            panelRegistrar.SetActive(true);
-            textoErrorRegistro.text = "";
-        }
+    // ABRIR / CERRAR REGISTRO
+    public void BotonAbrirRegistrar()
+    {
+        panelRegistrar.SetActive(true);
+    }
 
-        public void BotonVolverLogin()
-        {
-            panelRegistrar.SetActive(false);
-            textoError.text = "";
-        }
+    public void BotonVolverLogin()
+    {
+        panelRegistrar.SetActive(false);
+    }
 
+    // REGISTRO
     public void OnBotonRegistrarClick()
     {
         StartCoroutine(ProcesoRegistro());
@@ -113,54 +92,49 @@ public class LoginManager : MonoBehaviour
 
     IEnumerator ProcesoRegistro()
     {
-        string user = regUsuario.text; // Asegúrate de tener estas variables de los campos de registro
+        string user = regUsuario.text;
         string pass = regPassword.text;
 
         if (string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pass))
         {
-            textoErrorRegistro.text = "¡Rellena todos los campos para registrarte!";
+            textoErrorRegistro.text = "Rellena todos los campos";
             yield break;
         }
 
-        // 1. Creamos el objeto con los datos (debe coincidir con RegisterRequest de tu API)
-        var datosRegistro = new { Username = user, Password = pass };
-        string jsonDatos = JsonConvert.SerializeObject(datosRegistro);
+        var datos = new { Username = user, Password = pass };
+        string json = JsonConvert.SerializeObject(datos);
 
-        // 3. Creamos la petición POST
         using (UnityWebRequest www = new UnityWebRequest(urlRegistro, "POST"))
         {
-            // Convertimos el JSON a bytes para el cuerpo de la petición
-            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonDatos);
-            www.uploadHandler = new UploadHandlerRaw(bodyRaw);
+            byte[] body = System.Text.Encoding.UTF8.GetBytes(json);
+            www.uploadHandler = new UploadHandlerRaw(body);
             www.downloadHandler = new DownloadHandlerBuffer();
-
-            // MUY IMPORTANTE: Decirle a la API que enviamos un JSON
             www.SetRequestHeader("Content-Type", "application/json");
 
-            // Reutilizamos tu clase para saltar el certificado SSL
             www.certificateHandler = new GameManager.BypassCertificate();
 
             yield return www.SendWebRequest();
 
             if (www.result == UnityWebRequest.Result.Success)
             {
-                Debug.Log("Usuario registrado con éxito: " + user);
-
-                // 4. Limpiamos y volvemos al login
+                // Registro correcto
                 regUsuario.text = "";
                 regPassword.text = "";
+                panelRegistrar.SetActive(false);
 
-                panelRegistrar.SetActive(false);    
-
-                textoError.text = "¡Registro correcto! Ya puedes entrar.";
+                textoError.text = "Registro correcto";
             }
             else
             {
-                // Error si el usuario ya existe o fallo de servidor
-                textoErrorRegistro.text = "Error al registrar: El usuario ya existe";
-                Debug.LogError("Error Registro: " + www.downloadHandler.text);
+                textoErrorRegistro.text = "Error al registrar";
             }
         }
     }
-}
 
+    // Clase usuario (respuesta API)
+    public class User
+    {
+        public int id;
+        public string username;
+    }
+}

@@ -123,7 +123,6 @@ public class OpcionesMenu : MonoBehaviour
         }
     }
 
-    // --- NUEVO MÉTODO PARA EL BOTÓN DE GUARDAR ---
     public void BotonGuardarAjustes()
     {
         if (!datosCargados) return;
