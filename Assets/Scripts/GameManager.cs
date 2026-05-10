@@ -10,8 +10,10 @@ public class GameManager : MonoBehaviour
 
     [Header("Configuración API")]
     // Cambia el puerto si es necesario
-    public string baseUrl = "https://localhost:44351/api/Estadisticas";
-    public string progresoUrl = "https://localhost:44351/api/Progreso";
+    private string baseUrl;
+    private string progresoUrl;
+
+    const string link = "http://AdventureTime.somee.com";
 
     [Header("Vida")]
     public int vidaMaxima = 6;
@@ -25,7 +27,12 @@ public class GameManager : MonoBehaviour
     private Checkpoint checkpointActual;
 
     [Header("Datos Usuario")]
-    public int usuarioID = 1; // ID de tu tabla MySQL
+    public int usuarioID; // ID de tu tabla MySQL
+
+
+    public float volumenGuardado = 0.5f;
+    public int resolucionIndexGuardada = -1; // Cambiamos 0 por -1 para saber si es la primera vez+
+    public int monedasActuales = 0; // Contador global de monedas
 
     [System.Serializable]
     public class DatosVida
@@ -47,6 +54,7 @@ public class GameManager : MonoBehaviour
         public float respawn_x;
         public float respawn_y;
         public float respawn_z;
+        public int monedas;
     }
 
     // --- CLASE AUXILIAR PARA EL CERTIFICADO SSL ---
@@ -57,6 +65,9 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        baseUrl = $"{link}/publish/api/Estadisticas";
+        progresoUrl = $"{link}/publish/api/Progreso";
+
         if (Instance == null)
         {
             Instance = this;
@@ -79,11 +90,33 @@ public class GameManager : MonoBehaviour
         {
             checkpointPosicion = player.transform.position;
         }
+
+        if (resolucionIndexGuardada == -1)
+        {
+            EstablecerResolucionPorDefecto();
+        }
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         BuscarUIManager();
+
+        AudioListener.volume = volumenGuardado;
+
+
+        // Aplicar resolución guardada
+        Resolution[] res = Screen.resolutions;
+        if (resolucionIndexGuardada >= 0 && resolucionIndexGuardada < res.Length)
+        {
+            Resolution r = res[resolucionIndexGuardada];
+            Screen.SetResolution(r.width, r.height, Screen.fullScreen);
+            Debug.Log($"Resolución aplicada en {scene.name}: {r.width}x{r.height}");
+        }
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ActualizarTextoMonedas(monedasActuales);
+        }
 
         // Si entramos al menú, reseteamos flags para evitar bucles
         if (scene.name == "Menu")
@@ -117,11 +150,45 @@ public class GameManager : MonoBehaviour
         // Cargamos la vida después del TP
         yield return StartCoroutine(CargarVidaDesdeAPI());
 
+        if (uiManager != null)
+        {
+            uiManager.ActualizarCorazones(vidaActual, vidaMaxima);
+        }
+
         // Reset de flags
         debeCargarPartida = false;
         modoCargaActivado = false;
     }
 
+    public void EstablecerResolucionPorDefecto()
+    {
+        Resolution[] res = Screen.resolutions;
+        // Buscamos 1920x1080 en la lista de resoluciones del monitor
+        for (int i = 0; i < res.Length; i++)
+        {
+            if (res[i].width == 1920 && res[i].height == 1080)
+            {
+                resolucionIndexGuardada = i;
+                Screen.SetResolution(1920, 1080, Screen.fullScreen);
+                return;
+            }
+        }
+        // Si no encuentra 1080p (monitor pequeño), ponemos la última de la lista (suele ser la nativa)
+        resolucionIndexGuardada = res.Length - 1;
+    }
+
+    public void SumarMonedas(int cantidad)
+    {
+        monedasActuales += cantidad;
+
+        // Aquí es donde conectamos con tu UIManager
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ActualizarTextoMonedas(monedasActuales);
+        }
+
+        Debug.Log("Monedas actuales: " + monedasActuales);
+    }
 
     // Modifica este método para que sea un Reset Real
     public void ResetearDatosPartidaNueva()
@@ -271,7 +338,7 @@ public class GameManager : MonoBehaviour
         string y = checkpointPosicion.y.ToString(System.Globalization.CultureInfo.InvariantCulture);
         string z = checkpointPosicion.z.ToString(System.Globalization.CultureInfo.InvariantCulture);
 
-        string url = $"{progresoUrl}/Actualizar/{usuarioID}/1/{nombreEscenaActual}/{x}/{y}/{z}";
+        string url = $"{progresoUrl}/Actualizar/{usuarioID}/1/{nombreEscenaActual}/{x}/{y}/{z}/{monedasActuales}";
 
         using (UnityWebRequest www = UnityWebRequest.Put(url, ""))
         {
@@ -293,10 +360,28 @@ public class GameManager : MonoBehaviour
             if (www.result == UnityWebRequest.Result.Success)
             {
                 var datos = JsonConvert.DeserializeObject<ProgresoJugador>(www.downloadHandler.text);
+
                 checkpointPosicion = new Vector3(datos.respawn_x, datos.respawn_y, datos.respawn_z);
 
-                // Cambiamos de escena. Al terminar, OnSceneLoaded se encargará de la vida y posición
-                SceneManager.LoadScene(datos.escena_nombre);
+                
+                monedasActuales = datos.monedas;
+                if (UIManager.Instance != null)
+                {
+                    UIManager.Instance.ActualizarTextoMonedas(monedasActuales);
+                }
+
+                if (Application.CanStreamedLevelBeLoaded(datos.escena_nombre))
+                {
+                    Debug.Log("Intentando cargar escena: " + datos.escena_nombre);
+
+                    yield return new WaitForSeconds(1f);
+
+                    SceneManager.LoadScene(datos.escena_nombre);
+                }
+                else
+                {
+                    Debug.LogError("La escena no existe: " + datos.escena_nombre);
+                }
             }
         }
     }
@@ -326,7 +411,7 @@ public class GameManager : MonoBehaviour
         string y = "0";
         string z = "0";
 
-        string url = $"{progresoUrl}/Actualizar/{usuarioID}/1/{escenaInicial}/{x}/{y}/{z}";
+        string url = $"{progresoUrl}/Actualizar/{usuarioID}/1/{escenaInicial}/{x}/{y}/{z}/0";
 
         using (UnityWebRequest www = UnityWebRequest.Put(url, ""))
         {

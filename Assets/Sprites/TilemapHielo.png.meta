@@ -1,0 +1,7552 @@
+fileFormatVersion: 2
+guid: 1c8938afa79409543bd19e8081e3b4c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7656152838764427471
+    second: Gemini_Generated_Image_30dgh230dgh230dg_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TilemapHielo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bcdf15949585c41b9717f336053b87
+      internalID: 1261925376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a440f190cc984ab7f8974d50fd30e
+      internalID: -1899025845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d5331b05c0dba4a9f3053c110b5fec
+      internalID: 1879381679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5bd66f5812d2649aab6c266416d932
+      internalID: 796794995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cb6d484265f74419a54adffa6b1e39
+      internalID: 1709472611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea4c3ca568c4f04390a7de3a45f4015
+      internalID: -1808088215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dca630b986be7c47b8d46c92809dc5c
+      internalID: 692238337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97d43ad898cb924c9a95fb135e51627
+      internalID: 1696280996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c27db8196b46a4d90e4184e9cd8c90
+      internalID: 1822626634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d94339a9b204f849aee81c1b07d5d78
+      internalID: -828807784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_10
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c20ddc4f08b01540895a39ce91fdf61
+      internalID: 472445324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea46e0b1aee93d44b6d8d2f8d3429c4
+      internalID: 2008087892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_12
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0755a5d19ae6cb45aff68da1f9f35de
+      internalID: -78129573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_13
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548427c88d418cf43ae92fcdda8f86b1
+      internalID: -217836733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec05a2020dfec8543b27d107f71c59c9
+      internalID: 1595854022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_15
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c54d5ee5aab4ac4bae4d6b3edd8896a
+      internalID: 2014545002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118ac2bc8139e5d4bbf2d4f58b97af8c
+      internalID: -1141357878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_17
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc7859e3f2a5b4186f30ddc69ce813
+      internalID: 574861188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_18
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eee643075120e4c93182f5d771b57b
+      internalID: 1718036142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_19
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15e7ed14b970c84ba8c10ab9cc9e0b2
+      internalID: -1812599032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_20
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba767b78d63ccd478ba4b7bf6d6bc91
+      internalID: 434860832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_21
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476634585172dd146a856f6f3bf122f4
+      internalID: -926427284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_22
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 743
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f422820edbf14458366b7328745d78
+      internalID: 1278303602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd84f65541afe340b61416d8e618506
+      internalID: -1438649075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_24
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7508b0c6dfb6bd438d06c66393cfae1
+      internalID: 719552782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fee3f38be3de704cbfe1aa9340dde3d
+      internalID: -587144182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf0048329a46ec46a05576241a914ee
+      internalID: -1911670825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0351072ef733e3f46b85777f9f8d5c12
+      internalID: 1485901320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_28
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41591c7eb66673744a4712558cc57c2d
+      internalID: -1851298925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb474bd52f26754e83c5909e3d1ee11
+      internalID: -132812409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b2fc8adef85fc4e86be9a4f1c44337
+      internalID: -232088088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_31
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1813e160f92382148a2c2704bcedcdc8
+      internalID: -1561472751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_32
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce81630606b2874986e0224747d86eb
+      internalID: -1100081494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072d1f6aa72b7ce4db346940435e84d2
+      internalID: 2128000327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_34
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1970a62ca635e9419cde3c556fadcf6
+      internalID: -907837845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_35
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688f8fc2e5efb0d4c999d5143da12e5b
+      internalID: 1820675983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_36
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbf6726f2736874f9726d65453ba9ff
+      internalID: 733370546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_37
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1261586ba640ae4e8b9649552b25d9a
+      internalID: -2136846597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_38
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049db97727d963d4cb961311b67c937b
+      internalID: -869959211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_39
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d244dd000d374fb2ac427c830c7bc
+      internalID: -1492465964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_40
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455860bd9ad56fe409019ebef5c3dbff
+      internalID: 1243937690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_41
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541574eea0c2835489687aa32d2d42a3
+      internalID: -1901747207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_42
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a88ae94bd2fa040a4835a05ff94087
+      internalID: 1154673644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_43
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe8f8a2f433074438031d392645b3e1
+      internalID: -321890417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_44
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444f54d0b6033f4bb2b93a80f10866a
+      internalID: 1736361843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_45
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 686
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4421d468b259341a43c9cf6a95f1c5
+      internalID: 93842433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6171a463d71feba4197f21e546347a65
+      internalID: -827191430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_47
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1e8619da4b1b643b0fc34caa843b7c
+      internalID: -258385038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c689bed1839146e4898cdf1910dfa0c9
+      internalID: 30924285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_49
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ffc635cad3ee240831760aac44bd04
+      internalID: 201171118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_50
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec04957ba0f7ad341b0f895b56848824
+      internalID: -1492733892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_51
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9770cbe2420534280a7e35961fabcd
+      internalID: 2144391502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_52
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b8dbc4daed7ac46a3e8b742eb68343
+      internalID: -1203191140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd299ec7d3ce8146a680055d524721f
+      internalID: 648429147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_54
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9c7a8bcdcb0542985d091f2ffcc83
+      internalID: 1480518388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_55
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcd9b39e5aba144c9948503881e655b
+      internalID: -1098509539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_56
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f375142c9e463be4f9a66684a2de99c5
+      internalID: -66268157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_57
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93d908ab1527514e87e0b73acc3b4b4
+      internalID: -1570803666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_58
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d794dedffd0b4414a9f534a8c195c1a3
+      internalID: -1496831528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_59
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e17aa8767e5db245a5d4f4847e830f6
+      internalID: -550656345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_60
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67916a69da69d42408bbca30de3df62c
+      internalID: 1902611622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_61
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee019a09c23559c459014c259bc31395
+      internalID: 1249012226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_62
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d4c65348d2a08448081dd457b9b0e1
+      internalID: 1207628705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_63
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d68bf8d7f857774eb71650f0e9fde5c
+      internalID: 1900785924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_64
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a773a9bd9ab5dea488e7b0d1be495bde
+      internalID: 1676887680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_65
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0158cf6673f3e524cae79444f14e83f9
+      internalID: -649779148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_66
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b62f32b2e725bd41839ed214d5501e3
+      internalID: -1763907269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_67
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c4e3fef5e216f40aaa82347e01627f
+      internalID: -1083304445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_68
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 629
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8105f41791044c91fa8f0b44c3b4c
+      internalID: -1725031084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d93ea2d9eea148488827a232b241e87
+      internalID: 271258326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294ae38007f42854eab7dc88933313a1
+      internalID: -252971019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_71
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3ee3448da915246a29179223dd9513
+      internalID: 944963970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_72
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc128cbf344b7b489e675570ce6fda7
+      internalID: -1408839877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_73
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e158d0913f6820341892d98032d021f1
+      internalID: 1364702739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_74
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a31c338719851e4cb86374681fbfb87
+      internalID: -1057507474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_75
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4801a8828c204ac47b29a447e5109046
+      internalID: -1217083295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_76
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76de4abacd8f89d4fbc82271cf2571f0
+      internalID: -990732344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_77
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b1387128a2dc64baf20e2fba073b77
+      internalID: 1078288789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_78
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3282dd45aec42d24598a0e41d1a32f92
+      internalID: 1341948209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_79
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3314b182eebdb13428fe2ca2e6456eb1
+      internalID: -1356785515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_80
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f56ed17f6b65c4c8c7a876c2445d0a
+      internalID: 1679178939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_81
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50dfb6c8165e3944b938cfe962a18b2
+      internalID: -413939113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_82
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f92f943e92fe4cb6136b24e9e1b65
+      internalID: -928507812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_83
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abdff0511813ef4091045aafec45979
+      internalID: -301143515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_84
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4f1c29d1a1e1b418f132ff79560796
+      internalID: -1979182236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_85
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ac861f6698dde488ec99c7ab6daa79
+      internalID: -272385196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_86
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae8fdb02aab9ed428f5f6f86d2ed6b2
+      internalID: 335893625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_87
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed4dd1fe74950f4692ec8ab0191a8c3
+      internalID: 55374686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_88
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fc81e799438dd469b2328291ce6b4d
+      internalID: -1967926720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_89
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f3fa4a542fa1a48a152ae40ad40e0a
+      internalID: -531481297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_90
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06e069b51ac2544089ed18949bffcf7
+      internalID: -587526469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_91
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 572
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a763a2e7ed70bb46935400643a36b07
+      internalID: -1786686587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6921bdcfe13864c916e0685a53084b
+      internalID: -1880488765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_93
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2130e96a2ab01246bf856f6f86fd4e8
+      internalID: -1126830531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_94
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a00b56f807a30f43bda605c370161d7
+      internalID: 1848629081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_95
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1cfe5a74ce0c948930fba59dd2b21a
+      internalID: -946298932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_96
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0f99e60dfdaae4185e53aeeac1d879
+      internalID: 286962458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_97
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2c227a3da88e543beceec247b24bc1
+      internalID: -1783698848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_98
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdcb21c317ebd44596ee045028735cf
+      internalID: 207882269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_99
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7da2797998cce48855f60f94a1b0be
+      internalID: -1598556754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_100
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23d44da1b0e09543876e73d6d002fbb
+      internalID: -178618574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_101
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2162d91583fa6e4ba502f4e3c7a650b
+      internalID: 1669006803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_102
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a1f2d94ab10764e941f4460c012594
+      internalID: 750221200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_103
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea0429a63ef5b0499946e67e528b54e
+      internalID: -1185015949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_104
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98060edfef9755640af2c4cad2b26284
+      internalID: -2005221170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_105
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072ee613ea90a364b9f3c56ae1d08b97
+      internalID: -1711790361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_106
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4363a82e9a28ea742a2310c164444623
+      internalID: 802665929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_107
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f1456381ccd3a4087c036d2333c5c0
+      internalID: 1684495568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_108
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd319f94fe92e584eb40307953777116
+      internalID: 665920341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_109
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7274b60e22b3e5d4a8b25f495080dc08
+      internalID: 1618325190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_110
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f555dcdaaa29f04e8421aaa42714b01
+      internalID: 1503882851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_111
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ffccd7df684dc44ba27d5597337ff9
+      internalID: 321249999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_112
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a034b55f6b07343b05216989473501
+      internalID: -1570153530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_113
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec9fb072395ef4eba32aa59eb4dbab
+      internalID: -1157035651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_114
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 515
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d386377b1699824185a06f2d5d208b7
+      internalID: -805125882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67da05c22e1f45d4fa865caff347fc71
+      internalID: 1478678360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_116
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b1b0e6c35854846b7bc3f6622333ae
+      internalID: 262622381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_117
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0185ab567038045b6939b9fa946dde
+      internalID: -675793715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_118
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938a440e97b9adf4686d88cb14a6835d
+      internalID: -80339805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_119
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3eeb2d765a004142b920ea7a0b3135e
+      internalID: 112437264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_120
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143346ab4f6d07e49a5ac4e6b36fe20d
+      internalID: -534477209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_121
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ad16e3f3a37b943a7aeb61e9c95443
+      internalID: -850203537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_122
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01de8df464384a40a21deb15463792f
+      internalID: -797406819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_123
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3384af33e0a13304e830ea62c6eca85b
+      internalID: -409141725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_124
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbc84def6dca64418e5ef30edeca085
+      internalID: 280673539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_125
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4c1b1860570414dbcf68d48a974dd6
+      internalID: -253604519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_126
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ffc1bd21fabb145adaef4cd7f8dab3
+      internalID: 170975982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_127
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c8b199788ac5343ae56123fb61147d
+      internalID: -412893334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_128
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f4f4f5949b09646a1328c3201e5495
+      internalID: 305399473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_129
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2595fb9612701b844b5dcf53dfc634fe
+      internalID: 1099744770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_130
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7522ac5404d8b14aae5485182b5f783
+      internalID: 1023017721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_131
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28be4cd5e60b7b43b67e810bcacf02d
+      internalID: -288400011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_132
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2fa31c9d8951d44b7f8b1c92cb355b
+      internalID: 1611831794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_133
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46384ce1175f2d4b9ee7a918cd72cff
+      internalID: 248421890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_134
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4404d634a84f0ae4b8de885339d99c41
+      internalID: 1931678106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_135
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86195035d5611942b62fb4ea0cf886c
+      internalID: -1824899914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_136
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8614f40d6ae8de4ea0aaeaf206abfe7
+      internalID: 1091429035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_137
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 458
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d146a34e99c904ea7482b81b685a42
+      internalID: -78669960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269ab3f595c495949b6bcb15f098dd8a
+      internalID: -1949160343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_139
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e83fd7d2463b04194fb9df4d6728bb
+      internalID: 733601144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_140
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9922f320f3f818b49b999ddd4cfc8f8d
+      internalID: 1999195211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_141
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11e81a99dcf8b149871aff3233ffc23
+      internalID: -261282784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_142
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d069535110abd3a4c8dd3c3417519b67
+      internalID: 1539284677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_143
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc11edab7cdfc34ca3b9e1284616bad
+      internalID: -417311306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_144
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a524cd2092dfc43bffc9901cd2b989
+      internalID: 534664475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_145
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cad56aa92ffbf449b549f01567111b
+      internalID: -758771491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_146
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff2277cdce4b81469c9b7d7219cf5e5
+      internalID: -1379875425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_147
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3914a09a25c3f7344b328040d7c2e702
+      internalID: -1772652628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_148
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b621cfd667606df449f7ae07493ecf79
+      internalID: -1116217719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_149
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9bd87b82965f142ab84a0a4388cc9c
+      internalID: -797804144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_150
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b0c60808b5f994e9eefe676e5b523b
+      internalID: -848513651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_151
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db242ef7536aa54eb7f4cbe19533faf
+      internalID: 984466653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_152
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5377bed2f434e81458b7f751b62b9bee
+      internalID: -12593044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_153
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a017ddec5053f4187fa535b72d650e
+      internalID: 1089889568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_154
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdd608fbf7a7d947b50a6f2351537ff
+      internalID: 1331066658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_155
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1bffe187e74bc458a6506de306b82c
+      internalID: -1075062164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_156
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7560ad6f4c10e7847ae195861adeb90a
+      internalID: 222308821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_157
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c7537e63950a949863ad8194289e85
+      internalID: -537230106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_158
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5d310f0a2a1834886db249ce61c3e7
+      internalID: -849641594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_159
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e648c6634671e4298924a5ea9ddd31
+      internalID: 683202894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_160
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 401
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0117c5173cca6454fbf1adb527df804d
+      internalID: 1177981530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a11f6915a34dd4186803373d05dbaf
+      internalID: 565629385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_162
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8346a0c2ffc4c5e4fa3087e2bffa30e6
+      internalID: 619934271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_163
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15552b149e9a3a4bbd6b9d6c682496b
+      internalID: -1174157013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_164
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ab245410dacb24880ef009f15e0462
+      internalID: 2023767239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_165
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a582d130f5d3dea459801dbbbaf51438
+      internalID: 1830535399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_166
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f76b5b40f98fb54ea3445e18d2773b1
+      internalID: 1068312235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_167
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5630e7518f010fa4589d78eb50d83fef
+      internalID: 911537029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_168
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8825e468723124340a8b99acbfa868fc
+      internalID: -1299439044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_169
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cf4f5409d198d44b16b310911b9444
+      internalID: 1069074431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_170
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e01cf6200774a54ab50e233dd60f35e
+      internalID: -1354208459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_171
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c49458893739e5469f480fae7dd2893
+      internalID: -1554179390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_172
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631caeb41cedaa34fa59cbbcbc47452b
+      internalID: -1482967705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_173
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a50219cde05574b927f1f1d594bd46
+      internalID: 1688952015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_174
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19a3e1a7f3a6ed4682d7d447f812ae4
+      internalID: -1477679679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_175
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb48600126955964aaefd3134f4375fb
+      internalID: 1335861695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_176
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75f5875cbc81a645a9737a838635162
+      internalID: 670236050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_177
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f94b7cef871b904881f7425af3fe787
+      internalID: -1729190666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_178
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823a732f4b01dc64583035f3c054d7dd
+      internalID: -379216391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_179
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6166b07a98ad2ab4481d8e95487340c6
+      internalID: -1273454617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_180
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28b201dd9e9c474fb28120796286b53
+      internalID: 1920806105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_181
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75976e1f5ee15804e8961533d96ee026
+      internalID: 865328965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_182
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bcd8caee3ab9e428b189e7403dfe67
+      internalID: 1020070324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_183
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 344
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb08164ca8d5054aade957c610cafee
+      internalID: -1622072346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd639a10fdacf75408f89145555ac67a
+      internalID: 329053630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_185
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be70173a7e34f4cb71bf38ae868042
+      internalID: -1752112859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_186
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c88732a8bb60034bb5e2f2e1789ceef
+      internalID: 1735574205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_187
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dc2990910e21e4bbb2a755e348be27
+      internalID: -103578372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_188
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff236a311d185c48ba20c09e6056283
+      internalID: -635871865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_189
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7febbae4814977240957a41ede5c65a0
+      internalID: -2124755754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_190
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70095019c5c1b724293198c34ecf2a3f
+      internalID: -702877871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_191
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29374b95141a7d842b055b29cc5c152d
+      internalID: -1566831819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_192
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9e15e816cb1ad459e4acf98d990eec
+      internalID: 1984135311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_193
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e86515bb299cb47b31659897e98346
+      internalID: -597947627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_194
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061ca5391d7fdb644917eb711a3d2eaf
+      internalID: 1794312564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_195
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ee307b1ccfe6b4db72d1221b7f4770
+      internalID: -1063572983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_196
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88091c9c0e27c9841a7c9b530d103b61
+      internalID: 1479006053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_197
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d040990a38e1fa44da37c0646a58984a
+      internalID: -1681280795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_198
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3ee47070222de43b39f8fdd909eb68
+      internalID: -1778339316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_199
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ac4afb92e0b345b1bdcb33c637ee4
+      internalID: 2138556899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_200
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea38085380a31974aa08d306ed214596
+      internalID: -1405963998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_201
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85096ded84ecd4f448b0c553856da99e
+      internalID: -1479813316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_202
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f3becea53d6d6449c5f671ecbdb0b1
+      internalID: -501899750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_203
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc81dc32f4f76e4c91c8292161835e7
+      internalID: -549903208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_204
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a82d2e78646a344eaa9560de120bf72
+      internalID: 1453182032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_205
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99998cf16504dc74d88d96a9123fc23a
+      internalID: -713177709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_206
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 287
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d5298acab3a664792bf260ec0a247d
+      internalID: 336036742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_207
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732de021c4ff70048a9c1c400ee01bbc
+      internalID: 619255735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_208
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dd4700841780e46af86482fca14e60
+      internalID: 537584855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_209
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e414e1e7e42d4c92a5ab99cb1c433
+      internalID: -976512152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_210
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c87e851836548444b52ade3af27ce4c
+      internalID: -1576912244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_211
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0d79ec86fbda9469d34f7adf848f35
+      internalID: 713591772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_212
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f14383232c5015479688dbbb22a535d
+      internalID: -2062771210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_213
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dd2840ff634cc4992196953fdce358
+      internalID: 471368099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_214
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e782d9f810ef94297b558f0dee71a5
+      internalID: -1702035684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_215
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6b85e3f9e3c4c49ab06066c559ff5b
+      internalID: -244123064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_216
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9152d8df8ee989c4eba0ae90eefd6f33
+      internalID: -916363419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_217
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1095b3f6284e0cf47b0e486f62348535
+      internalID: 1854141506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_218
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f2999de982d2649abc5fbb5b1c5ead
+      internalID: -1307195181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_219
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be919c8ef1310f4597490c2553ccc18
+      internalID: 925042839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_220
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8d589fb4f7b834294326abec22ef2b
+      internalID: -264932387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_221
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1783a079b83da4d84569c013daaa23
+      internalID: 81315464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_222
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8643c9dca21a646b36316c74cd7c94
+      internalID: -329052421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_223
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a10d7d40989b94ba0300c3974eb43b
+      internalID: -1177921996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_224
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df62a2ce012d69489d5e785f3e818b2
+      internalID: 1996546650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_225
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0a04ccb8ed99c4b8716c4eb5879a65
+      internalID: 2018011562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_226
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcab61ce6d04cda49aeb32ab43b935fd
+      internalID: -1401552538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_227
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ff6242e066b2c40983fd10cb25deae
+      internalID: -1093936447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_228
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e02350c0847b7438a6d7a31e82b7ac
+      internalID: -280398878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_229
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 230
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6313af17cd5def14c923bb12bdc41cb6
+      internalID: -1726100235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_230
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5e838ba69fffb44ace7e935319e528
+      internalID: -2009122271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_231
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7273daf67113024ead2fc1870fb6f91
+      internalID: 1788594965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_232
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f987eec8d0c9b14688697bfdee215ab
+      internalID: -1618077808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_233
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6708c8f3a59a42c4ab4f922d867a691d
+      internalID: 1275835774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_234
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364848b49b54b1e42b80e6bcda27ee37
+      internalID: 989124393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_235
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29e3ae6a46e7554e9108da78a28b9bc
+      internalID: 1717688694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_236
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa76b00840c06347bd2f075100174f0
+      internalID: -427598961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_237
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b615302e665948b566fa6d6fe3e66
+      internalID: 1553329205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_238
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd3811ead347554ab1b415749eab117
+      internalID: -822318429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_239
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c932d4b731188478b3ca6467bafd07
+      internalID: 1735310816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_240
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb63315f85636b4e8de1bd65551c5f4
+      internalID: 1328699018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_241
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8b0bbdc93fca44fbcbf9bdeca19766
+      internalID: 1715252153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_242
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69da98a482d2a548a53fc1e9032f137
+      internalID: -980712377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_243
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9840376e45ee9e428a224958012d34c
+      internalID: -1623479510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_244
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1de6d94dd46a642b1cacc6288af3c7
+      internalID: 166932145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_245
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5518bd3a415089b468cb3137b9640b85
+      internalID: 1283569216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_246
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6fbfd34f903484481c8f6470b07709
+      internalID: 1176525661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_247
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791c39fa1a3a94743ad61e7b875a4728
+      internalID: -618667563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_248
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d46efca150bede4993f689edd515af4
+      internalID: 448467990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_249
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e234f682673e4b9afc2cf9511cb63
+      internalID: -1739565193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_250
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d23f8d8e83f8494fb8ec4bdd149f936
+      internalID: -1099798603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_251
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b54dd0bc26c654ca27770a6e584efa
+      internalID: 1981609212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_252
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 173
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ccb22db8f29a244aa485904721fb1d
+      internalID: 108127981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_253
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a110c67932c54fa4f915e4f6adf5292a
+      internalID: -101477408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_254
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154663f80ccd2c0478a81ca66833c512
+      internalID: -2147332576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_255
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d625e99b16b444443be1c6a9ef5ccf24
+      internalID: 1320969665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_256
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6de3a4d5d33244a99ca4289b444fe1
+      internalID: -548702108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_257
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26409589ee3bb374bb7e7b5585a4571a
+      internalID: 1489629803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_258
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0beef7c32a39c54687ce1f21e904e4d
+      internalID: 1345459413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_259
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73961a591e61c39408cdc3812fcb7179
+      internalID: -1107784888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_260
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fddce6bd4645946ac2ce61278260f7
+      internalID: -1930121750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_261
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4073a73ef83ef04d96839c34f521c46
+      internalID: -1808970097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_262
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19436292d3237b478e6afce9083f335
+      internalID: 1464652398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_263
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9756b7c875721d42a23d12e1346e179
+      internalID: 1482200244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_264
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdf8e9fee39b6849838e322debde6ca
+      internalID: -2091293750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_265
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604203561ad44a74294267a7d59a4c63
+      internalID: 1088770208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_266
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d208b2c1b27f124391fee1a99ca099e
+      internalID: 1587893970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_267
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba15beb366c5f498ad1e329dd5fc77
+      internalID: -1002369468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_268
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8721b8c5042f03a40b7c0521bfff8cd9
+      internalID: 2140183763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_269
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb1428b3bdcbd4428910bb4a25605c2
+      internalID: 2060299428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_270
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2678d4b0fda29644389c6039efa95e6d
+      internalID: -446403452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_271
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7915ad23a4ef249a3c2effe01b00b2
+      internalID: -1818877053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_272
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4a43a7d8422f146a4198968a6325ed
+      internalID: -2106327069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_273
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dfc2aef37229a4fb705b6a99d8de58
+      internalID: 734534802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_274
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf728f38502fa714c88597ef234a6715
+      internalID: -1187076524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_275
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 116
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5a47aaf46109c4296f1ff1d668bbc2
+      internalID: 1471989157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_276
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb97b7e5218810842b416324c3aa245c
+      internalID: 1478704303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_277
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0d86ff136810b43a30c741df2ffda3
+      internalID: 314966927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_278
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e13f6e380b934942aad7f4cce8eff3f
+      internalID: -447420390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_279
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c71cdb286d44844b81a35e8162a903
+      internalID: -984143243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_280
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d3897ef69cbf345a7a7afdd27378c7
+      internalID: 240236106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_281
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceeea69c6e5d0b409ebe78c46b9e0c0
+      internalID: -1383351956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_282
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8efe5a795fa7247b2969106f18924f
+      internalID: 48867303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_283
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151b56f305ebfcf45bfdcd8df2624eb4
+      internalID: -1506685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_284
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1cad998c847ec43970bcaf9031c87c
+      internalID: -783849033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_285
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28943eecee003834f9e5e68f9172dcef
+      internalID: -637698394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_286
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac721c13b1cbda54b9b2d6a95134d12d
+      internalID: -315737837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_287
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e213a75b68d0240b3f3f146ffde9de
+      internalID: -378127741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_288
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0312313b01e72ca49bed8a4238aae0f4
+      internalID: 509861766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_289
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892364064660d7847b05ac0afb2caa12
+      internalID: 511934176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_290
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c584bf00e9ba334c892ac76bd9ebf98
+      internalID: -2020818381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_291
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143ad4c90a911004fbf5cc397238e977
+      internalID: 448206105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_292
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0989ea352c87b4f4092140a3e5c2e292
+      internalID: -557219092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_293
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b837029ddb8ff0e48988a2f743163f04
+      internalID: 1431667678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_294
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6558774b2d950459491429ebff0058
+      internalID: -756629628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_295
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eb0bc0f4bfda34196fef09079b4340
+      internalID: -1915492823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_296
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f9defc13b714a4291f133f972247c5
+      internalID: 430044234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_297
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc25c545c0ea744a8f5001f4500d7a2
+      internalID: -358715270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_298
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 59
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc5567442e70034baa2f89d002b389c
+      internalID: 2147121098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_299
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5cf89f2b3529b43904e5e71ef1aaee
+      internalID: 336631018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_300
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c9be0958445d428e219dad495efda
+      internalID: 606291880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_301
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8edb99a7578737418c881f592e36408
+      internalID: 929859304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_302
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043331538b11d6d4ca3fa2663a66312c
+      internalID: -1481811449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_303
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23759374c0c18b04b979158f85687cc9
+      internalID: 803053961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_304
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59368e650c7b78241a72a36400b41b9f
+      internalID: -827624820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_305
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4c68f3bb697ca48b401fecf221b46a
+      internalID: -318181812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_306
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529b32abe30d3c7489ec377d8bdfa8f3
+      internalID: 2144675959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_307
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8b2b4db8ffb5441bce866f9145b2f3
+      internalID: -579442981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_308
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac0a90b3837354da35c263399197e5
+      internalID: -1133239689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_309
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc14a5f905724e44381423f03eb4da3c
+      internalID: 305088461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_310
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caddc7906b252ce4e8476a91f4dac9f2
+      internalID: 80111571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_311
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ad03253883c85468e23e3161531146
+      internalID: -1901026869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_312
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3230fb83df36b745b2f984ff6894569
+      internalID: -875561663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_313
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531b9095b634f09459f21edc698eba13
+      internalID: -1235674547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_314
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034def459ef7d05418e6a70d35786411
+      internalID: 1165763751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_315
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c037a0ac0f31ac74d92b78d7d3e83af4
+      internalID: 702072272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_316
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200d24711b6a2914db854a70ff4d3556
+      internalID: 733087893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_317
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff1f3af8d35ad14faa0e31fe7719a71
+      internalID: -1939274296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_318
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5e87d3b2d223a4199f4ffdd625da9a
+      internalID: -1758591483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_319
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4288dc33e8a2b45b9bb5af1de1a860
+      internalID: -663171545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_320
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1ea421635efb246ba8fece23da1bce
+      internalID: -1093696397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilemapHielo_321
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee19d8b48ba00741babacecf6fbb817
+      internalID: -750686468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a4069e2ae431b3943af5e205ff438ac8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TilemapHielo_0: 1261925376
+      TilemapHielo_1: -1899025845
+      TilemapHielo_10: 472445324
+      TilemapHielo_100: -178618574
+      TilemapHielo_101: 1669006803
+      TilemapHielo_102: 750221200
+      TilemapHielo_103: -1185015949
+      TilemapHielo_104: -2005221170
+      TilemapHielo_105: -1711790361
+      TilemapHielo_106: 802665929
+      TilemapHielo_107: 1684495568
+      TilemapHielo_108: 665920341
+      TilemapHielo_109: 1618325190
+      TilemapHielo_11: 2008087892
+      TilemapHielo_110: 1503882851
+      TilemapHielo_111: 321249999
+      TilemapHielo_112: -1570153530
+      TilemapHielo_113: -1157035651
+      TilemapHielo_114: -805125882
+      TilemapHielo_115: 1478678360
+      TilemapHielo_116: 262622381
+      TilemapHielo_117: -675793715
+      TilemapHielo_118: -80339805
+      TilemapHielo_119: 112437264
+      TilemapHielo_12: -78129573
+      TilemapHielo_120: -534477209
+      TilemapHielo_121: -850203537
+      TilemapHielo_122: -797406819
+      TilemapHielo_123: -409141725
+      TilemapHielo_124: 280673539
+      TilemapHielo_125: -253604519
+      TilemapHielo_126: 170975982
+      TilemapHielo_127: -412893334
+      TilemapHielo_128: 305399473
+      TilemapHielo_129: 1099744770
+      TilemapHielo_13: -217836733
+      TilemapHielo_130: 1023017721
+      TilemapHielo_131: -288400011
+      TilemapHielo_132: 1611831794
+      TilemapHielo_133: 248421890
+      TilemapHielo_134: 1931678106
+      TilemapHielo_135: -1824899914
+      TilemapHielo_136: 1091429035
+      TilemapHielo_137: -78669960
+      TilemapHielo_138: -1949160343
+      TilemapHielo_139: 733601144
+      TilemapHielo_14: 1595854022
+      TilemapHielo_140: 1999195211
+      TilemapHielo_141: -261282784
+      TilemapHielo_142: 1539284677
+      TilemapHielo_143: -417311306
+      TilemapHielo_144: 534664475
+      TilemapHielo_145: -758771491
+      TilemapHielo_146: -1379875425
+      TilemapHielo_147: -1772652628
+      TilemapHielo_148: -1116217719
+      TilemapHielo_149: -797804144
+      TilemapHielo_15: 2014545002
+      TilemapHielo_150: -848513651
+      TilemapHielo_151: 984466653
+      TilemapHielo_152: -12593044
+      TilemapHielo_153: 1089889568
+      TilemapHielo_154: 1331066658
+      TilemapHielo_155: -1075062164
+      TilemapHielo_156: 222308821
+      TilemapHielo_157: -537230106
+      TilemapHielo_158: -849641594
+      TilemapHielo_159: 683202894
+      TilemapHielo_16: -1141357878
+      TilemapHielo_160: 1177981530
+      TilemapHielo_161: 565629385
+      TilemapHielo_162: 619934271
+      TilemapHielo_163: -1174157013
+      TilemapHielo_164: 2023767239
+      TilemapHielo_165: 1830535399
+      TilemapHielo_166: 1068312235
+      TilemapHielo_167: 911537029
+      TilemapHielo_168: -1299439044
+      TilemapHielo_169: 1069074431
+      TilemapHielo_17: 574861188
+      TilemapHielo_170: -1354208459
+      TilemapHielo_171: -1554179390
+      TilemapHielo_172: -1482967705
+      TilemapHielo_173: 1688952015
+      TilemapHielo_174: -1477679679
+      TilemapHielo_175: 1335861695
+      TilemapHielo_176: 670236050
+      TilemapHielo_177: -1729190666
+      TilemapHielo_178: -379216391
+      TilemapHielo_179: -1273454617
+      TilemapHielo_18: 1718036142
+      TilemapHielo_180: 1920806105
+      TilemapHielo_181: 865328965
+      TilemapHielo_182: 1020070324
+      TilemapHielo_183: -1622072346
+      TilemapHielo_184: 329053630
+      TilemapHielo_185: -1752112859
+      TilemapHielo_186: 1735574205
+      TilemapHielo_187: -103578372
+      TilemapHielo_188: -635871865
+      TilemapHielo_189: -2124755754
+      TilemapHielo_19: -1812599032
+      TilemapHielo_190: -702877871
+      TilemapHielo_191: -1566831819
+      TilemapHielo_192: 1984135311
+      TilemapHielo_193: -597947627
+      TilemapHielo_194: 1794312564
+      TilemapHielo_195: -1063572983
+      TilemapHielo_196: 1479006053
+      TilemapHielo_197: -1681280795
+      TilemapHielo_198: -1778339316
+      TilemapHielo_199: 2138556899
+      TilemapHielo_2: 1879381679
+      TilemapHielo_20: 434860832
+      TilemapHielo_200: -1405963998
+      TilemapHielo_201: -1479813316
+      TilemapHielo_202: -501899750
+      TilemapHielo_203: -549903208
+      TilemapHielo_204: 1453182032
+      TilemapHielo_205: -713177709
+      TilemapHielo_206: 336036742
+      TilemapHielo_207: 619255735
+      TilemapHielo_208: 537584855
+      TilemapHielo_209: -976512152
+      TilemapHielo_21: -926427284
+      TilemapHielo_210: -1576912244
+      TilemapHielo_211: 713591772
+      TilemapHielo_212: -2062771210
+      TilemapHielo_213: 471368099
+      TilemapHielo_214: -1702035684
+      TilemapHielo_215: -244123064
+      TilemapHielo_216: -916363419
+      TilemapHielo_217: 1854141506
+      TilemapHielo_218: -1307195181
+      TilemapHielo_219: 925042839
+      TilemapHielo_22: 1278303602
+      TilemapHielo_220: -264932387
+      TilemapHielo_221: 81315464
+      TilemapHielo_222: -329052421
+      TilemapHielo_223: -1177921996
+      TilemapHielo_224: 1996546650
+      TilemapHielo_225: 2018011562
+      TilemapHielo_226: -1401552538
+      TilemapHielo_227: -1093936447
+      TilemapHielo_228: -280398878
+      TilemapHielo_229: -1726100235
+      TilemapHielo_23: -1438649075
+      TilemapHielo_230: -2009122271
+      TilemapHielo_231: 1788594965
+      TilemapHielo_232: -1618077808
+      TilemapHielo_233: 1275835774
+      TilemapHielo_234: 989124393
+      TilemapHielo_235: 1717688694
+      TilemapHielo_236: -427598961
+      TilemapHielo_237: 1553329205
+      TilemapHielo_238: -822318429
+      TilemapHielo_239: 1735310816
+      TilemapHielo_24: 719552782
+      TilemapHielo_240: 1328699018
+      TilemapHielo_241: 1715252153
+      TilemapHielo_242: -980712377
+      TilemapHielo_243: -1623479510
+      TilemapHielo_244: 166932145
+      TilemapHielo_245: 1283569216
+      TilemapHielo_246: 1176525661
+      TilemapHielo_247: -618667563
+      TilemapHielo_248: 448467990
+      TilemapHielo_249: -1739565193
+      TilemapHielo_25: -587144182
+      TilemapHielo_250: -1099798603
+      TilemapHielo_251: 1981609212
+      TilemapHielo_252: 108127981
+      TilemapHielo_253: -101477408
+      TilemapHielo_254: -2147332576
+      TilemapHielo_255: 1320969665
+      TilemapHielo_256: -548702108
+      TilemapHielo_257: 1489629803
+      TilemapHielo_258: 1345459413
+      TilemapHielo_259: -1107784888
+      TilemapHielo_26: -1911670825
+      TilemapHielo_260: -1930121750
+      TilemapHielo_261: -1808970097
+      TilemapHielo_262: 1464652398
+      TilemapHielo_263: 1482200244
+      TilemapHielo_264: -2091293750
+      TilemapHielo_265: 1088770208
+      TilemapHielo_266: 1587893970
+      TilemapHielo_267: -1002369468
+      TilemapHielo_268: 2140183763
+      TilemapHielo_269: 2060299428
+      TilemapHielo_27: 1485901320
+      TilemapHielo_270: -446403452
+      TilemapHielo_271: -1818877053
+      TilemapHielo_272: -2106327069
+      TilemapHielo_273: 734534802
+      TilemapHielo_274: -1187076524
+      TilemapHielo_275: 1471989157
+      TilemapHielo_276: 1478704303
+      TilemapHielo_277: 314966927
+      TilemapHielo_278: -447420390
+      TilemapHielo_279: -984143243
+      TilemapHielo_28: -1851298925
+      TilemapHielo_280: 240236106
+      TilemapHielo_281: -1383351956
+      TilemapHielo_282: 48867303
+      TilemapHielo_283: -1506685
+      TilemapHielo_284: -783849033
+      TilemapHielo_285: -637698394
+      TilemapHielo_286: -315737837
+      TilemapHielo_287: -378127741
+      TilemapHielo_288: 509861766
+      TilemapHielo_289: 511934176
+      TilemapHielo_29: -132812409
+      TilemapHielo_290: -2020818381
+      TilemapHielo_291: 448206105
+      TilemapHielo_292: -557219092
+      TilemapHielo_293: 1431667678
+      TilemapHielo_294: -756629628
+      TilemapHielo_295: -1915492823
+      TilemapHielo_296: 430044234
+      TilemapHielo_297: -358715270
+      TilemapHielo_298: 2147121098
+      TilemapHielo_299: 336631018
+      TilemapHielo_3: 796794995
+      TilemapHielo_30: -232088088
+      TilemapHielo_300: 606291880
+      TilemapHielo_301: 929859304
+      TilemapHielo_302: -1481811449
+      TilemapHielo_303: 803053961
+      TilemapHielo_304: -827624820
+      TilemapHielo_305: -318181812
+      TilemapHielo_306: 2144675959
+      TilemapHielo_307: -579442981
+      TilemapHielo_308: -1133239689
+      TilemapHielo_309: 305088461
+      TilemapHielo_31: -1561472751
+      TilemapHielo_310: 80111571
+      TilemapHielo_311: -1901026869
+      TilemapHielo_312: -875561663
+      TilemapHielo_313: -1235674547
+      TilemapHielo_314: 1165763751
+      TilemapHielo_315: 702072272
+      TilemapHielo_316: 733087893
+      TilemapHielo_317: -1939274296
+      TilemapHielo_318: -1758591483
+      TilemapHielo_319: -663171545
+      TilemapHielo_32: -1100081494
+      TilemapHielo_320: -1093696397
+      TilemapHielo_321: -750686468
+      TilemapHielo_33: 2128000327
+      TilemapHielo_34: -907837845
+      TilemapHielo_35: 1820675983
+      TilemapHielo_36: 733370546
+      TilemapHielo_37: -2136846597
+      TilemapHielo_38: -869959211
+      TilemapHielo_39: -1492465964
+      TilemapHielo_4: 1709472611
+      TilemapHielo_40: 1243937690
+      TilemapHielo_41: -1901747207
+      TilemapHielo_42: 1154673644
+      TilemapHielo_43: -321890417
+      TilemapHielo_44: 1736361843
+      TilemapHielo_45: 93842433
+      TilemapHielo_46: -827191430
+      TilemapHielo_47: -258385038
+      TilemapHielo_48: 30924285
+      TilemapHielo_49: 201171118
+      TilemapHielo_5: -1808088215
+      TilemapHielo_50: -1492733892
+      TilemapHielo_51: 2144391502
+      TilemapHielo_52: -1203191140
+      TilemapHielo_53: 648429147
+      TilemapHielo_54: 1480518388
+      TilemapHielo_55: -1098509539
+      TilemapHielo_56: -66268157
+      TilemapHielo_57: -1570803666
+      TilemapHielo_58: -1496831528
+      TilemapHielo_59: -550656345
+      TilemapHielo_6: 692238337
+      TilemapHielo_60: 1902611622
+      TilemapHielo_61: 1249012226
+      TilemapHielo_62: 1207628705
+      TilemapHielo_63: 1900785924
+      TilemapHielo_64: 1676887680
+      TilemapHielo_65: -649779148
+      TilemapHielo_66: -1763907269
+      TilemapHielo_67: -1083304445
+      TilemapHielo_68: -1725031084
+      TilemapHielo_69: 271258326
+      TilemapHielo_7: 1696280996
+      TilemapHielo_70: -252971019
+      TilemapHielo_71: 944963970
+      TilemapHielo_72: -1408839877
+      TilemapHielo_73: 1364702739
+      TilemapHielo_74: -1057507474
+      TilemapHielo_75: -1217083295
+      TilemapHielo_76: -990732344
+      TilemapHielo_77: 1078288789
+      TilemapHielo_78: 1341948209
+      TilemapHielo_79: -1356785515
+      TilemapHielo_8: 1822626634
+      TilemapHielo_80: 1679178939
+      TilemapHielo_81: -413939113
+      TilemapHielo_82: -928507812
+      TilemapHielo_83: -301143515
+      TilemapHielo_84: -1979182236
+      TilemapHielo_85: -272385196
+      TilemapHielo_86: 335893625
+      TilemapHielo_87: 55374686
+      TilemapHielo_88: -1967926720
+      TilemapHielo_89: -531481297
+      TilemapHielo_9: -828807784
+      TilemapHielo_90: -587526469
+      TilemapHielo_91: -1786686587
+      TilemapHielo_92: -1880488765
+      TilemapHielo_93: -1126830531
+      TilemapHielo_94: 1848629081
+      TilemapHielo_95: -946298932
+      TilemapHielo_96: 286962458
+      TilemapHielo_97: -1783698848
+      TilemapHielo_98: 207882269
+      TilemapHielo_99: -1598556754
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

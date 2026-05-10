@@ -10,6 +10,10 @@ public class MenuInicio : MonoBehaviour
     public Animator animatorNuevaPartida;
     public Animator animatorCargarPartida;
 
+    public GameObject menuPrincipal;
+    public GameObject menuOpciones;
+
+
     public void BotonNuevaPartida()
     {
         if (animatorNuevaPartida != null)
@@ -32,6 +36,24 @@ public class MenuInicio : MonoBehaviour
         StartCoroutine(CargarPartidaReal());
     }
 
+    public void BotonOpciones()
+    {
+        menuPrincipal.SetActive(false);
+        menuOpciones.SetActive(true);
+    }
+
+    public void BotonVolverMenu()
+    {
+        menuPrincipal.SetActive(true);
+        menuOpciones.SetActive(false);
+    }
+
+    public void BottonVolverOpciones()
+    {
+        menuOpciones.SetActive(false);
+        menuPrincipal.SetActive(true);
+    }
+    
     IEnumerator NuevaPartidaCompleta()
     {
         yield return new WaitForSeconds(1f);
@@ -42,7 +64,7 @@ public class MenuInicio : MonoBehaviour
         //cargaescena limpia
         SceneManager.LoadScene("GameEntrance");
     }
-
+    
     IEnumerator CargarPartidaReal()
     {
         yield return new WaitForSeconds(1f);

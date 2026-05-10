@@ -55,7 +55,7 @@ public class APIConnection : MonoBehaviour
     public IEnumerator GetHighScores(Action<string> callback)
     {
         using (UnityWebRequest www = UnityWebRequest.Get(apiUrl))
-        {
+        {   
             www.certificateHandler = new BypassCertificate();
 
             yield return www.SendWebRequest();

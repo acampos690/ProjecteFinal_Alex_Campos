@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using System.Collections;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,7 +15,10 @@ public class PlayerController : MonoBehaviour
     public float fuerzaSalto = 5f;
     public float fuerzaRebote = 5f;
     public float longitudRaycast = 0.1f;
+    public float velocidadBase = 5f;
+    private bool enBoost = false;
     public LayerMask capaSuelo;
+
 
     public bool enSuelo;
     public bool recibirDanyo;
@@ -47,7 +52,33 @@ public class PlayerController : MonoBehaviour
         {
             Atacando();
         }
+
+        if (transform.position.y < -50f && !muerto)
+        {
+            Morir();
+        }
+
     }
+
+    public void ActivarBoost(float multiplicador, float duracion)
+    {
+        if (!enBoost)
+            StartCoroutine(Boost(multiplicador, duracion));
+    }
+
+    private IEnumerator Boost(float multiplicador, float duracion)
+    {
+        enBoost = true;
+
+        float velocidadOriginal = speed;
+        speed = velocidadOriginal * multiplicador;
+
+        yield return new WaitForSeconds(duracion);
+
+        speed = velocidadOriginal;
+        enBoost = false;
+    }
+
 
     public void RecibirDanyo(Vector2 direccion, int CantidadDanyo)
     {
@@ -82,7 +113,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!muerto)
         {
-            float velocidadX = Input.GetAxis("Horizontal") * 5f * Time.deltaTime;
+            float velocidadX = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
 
             animator.SetFloat("movement", velocidadX);
 

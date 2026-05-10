@@ -16,7 +16,7 @@ public class ParallaxMovement : MonoBehaviour
 
     [Range(0.01f, 1f)]
     public float parallaxSpeed = 0.5f;
-
+    
     void Start()
     {
         cam = Camera.main.transform;
