@@ -1,124 +1,145 @@
-🎮 Manual d’usuari – Adventure Time Platformer
+# Adventure Time Platformer
 
-🌟 Introducció
+Videojoc de plataformes 2D inspirat en l’univers d’Adventure Time, amb sistema de login, guardat de partida, combat i exploració de diferents nivells.
 
-Aquest projecte és un videojoc de plataformes 2D desenvolupat amb Unity inspirat en l’univers d’Adventure Time. El jugador controla Finn i ha d’explorar diferents nivells, derrotar enemics, superar obstacles i avançar guardant el seu progrés mitjançant una API connectada a una base de dades MySQL.
+---
 
-El joc inclou sistema de login i registre, guardat de partida, estadístiques del jugador i diferents mecàniques de combat i exploració.
+# Característiques Principals
 
-🛠️ Com començar
+- Sistema de combat amb espasa  
+- Guardat automàtic de progrés  
+- Sistema de login i registre  
+- Diferents nivells i escenaris  
+- NPCs interactius  
+- Ajustos de volum i resolució  
+- Connexió amb API REST i base de dades MySQL  
 
-1. Crear un compte
+---
+
+# Guia de Controls
+
+| Acció | Tecla |
+|---|---|
+| Moure’s | A / D |
+| Saltar | Espai |
+| Atacar | Shift esquerre |
+| Interactuar | E |
+| Pausa | ESC |
+
+---
+
+# Com Començar
+
+## Executar el joc
 
 En iniciar el joc apareix el menú principal.
-Per jugar és necessari registrar-se primer.
 
-Passos:
+---
 
-Entrar al menú Register
-Introduir:
-Nom d’usuari
-Contrasenya
-Prémer el botó de registre
+## Crear compte
 
-Si el registre és correcte, el compte quedarà guardat a la base de dades.
+Si no tens compte, pots registrar-te des del menú Register.
 
-2. Iniciar sessió
+### Passos:
+1. Entrar a Register  
+2. Escriure:
+   - Nom d’usuari  
+   - Contrasenya  
+3. Prémer el botó de registre  
 
-Després del registre:
+<img src="images/IMAGEN2.png" width="500">
 
-Entrar al menú Login
-Escriure el nom d’usuari i la contrasenya
-Prémer el botó d’iniciar sessió
+---
 
-Quan el login és correcte, el jugador accedeix al joc i es carreguen automàticament les seves dades guardades.
+## Iniciar sessió
 
-⌨️ Controls del joc
+Si ja tens compte, entra al menú Login i inicia sessió amb les teves dades.
 
-Acció	Teclat
-Moure’s	A / D
-Saltar	Espai
-Atacar	Shift esquerre
-Interactuar	E
-Pausa	ESC
+<img src="images/IMAGEN1.png" width="500">
 
-🗺️ Mecàniques principals
+---
 
-🏃 Moviment
+## Entrar al joc
 
-El jugador pot desplaçar-se lateralment pels escenaris utilitzant les tecles A i D. El moviment inclou físiques de plataformes i salts.
+Quan el login és correcte, el jugador accedeix automàticament al joc i es carrega el progrés guardat.
 
-⚔️ Combat
+---
 
-Finn pot atacar enemics utilitzant la seva espasa prement la tecla Shift esquerre. Els enemics poden causar dany al jugador, reduint la vida actual.
+# Tutorial Bàsic
 
-❤️ Sistema de vida
+## Moviment
 
-El jugador disposa d’una quantitat de vida màxima.
-Quan rep dany, la barra de vida disminueix.
+El jugador es pot moure lateralment utilitzant les tecles A i D i saltar amb Espai per superar obstacles i plataformes.
 
-La vida queda guardada automàticament a la base de dades mitjançant la API.
+---
 
-💾 Guardat de progrés
+## Combat
 
-El joc guarda:
+El jugador pot atacar enemics amb l’espasa utilitzant Shift esquerre.
 
-Posició del jugador
-Escena actual
-Monedes
-Vida
-Estadístiques
+Els enemics poden causar dany i reduir la vida del jugador.
 
-Quan el jugador torna a iniciar sessió, el progrés es carrega automàticament.
+---
 
-⚙️ Sistema d’ajustos
+## Sistema de vida
 
-El joc permet modificar:
+La vida del jugador es mostra a la interfície del joc i disminueix quan rep dany.
 
-Volum
-Resolució
+La informació queda guardada automàticament a la base de dades.
 
-Els ajustos també es guarden a la base de dades per mantenir la configuració entre sessions.
+---
 
-👾 Elements del joc
+## NPCs i interacció
 
-Personatge principal
-Finn és el protagonista controlat pel jugador.
+Durant l’aventura apareixen NPCs amb els quals es pot interactuar per obtenir informació o diàlegs.
 
-Enemics
-Durant els nivells apareixen enemics que ataquen el jugador i dificulten el progrés.
+---
 
-NPCs
-Hi ha personatges interactius que mostren diàlegs i poden donar informació al jugador.
+## Guardat de progrés
 
-🌍 Escenaris
+El joc guarda automàticament:
+- Posició del jugador  
+- Vida  
+- Monedes  
+- Escena actual  
+- Estadístiques  
 
-El joc està format per diferents nivells i zones connectades.
-Cada escena té el seu propi punt de respawn i progrés guardat.
+---
 
-🚀 Requisits del sistema
+# Sistema d’Ajustos
 
-Component	Requisit
-Sistema Operatiu	Windows 10 o superior
-Memòria RAM	4 GB
-Processador	Dual Core
-Motor gràfic	Compatible amb Unity
-Connexió	Internet per utilitzar la API
+El jugador pot modificar diferents opcions del joc com:
+- Volum  
+- Resolució  
 
-🔒 Sistema de dades
+---
 
-El projecte utilitza:
+# Escenaris
 
-Unity com a motor gràfic
-ASP.NET Core API REST per gestionar les dades
-MySQL per guardar usuaris i progrés
+El joc disposa de diferents nivells i zones connectades entre si.
 
-Les contrasenyes es guarden xifrades per millorar la seguretat.
+---
 
-🤝 Crèdits
+# Sistema de Dades
 
-Apartat	Autor
-Desenvolupament del joc	Alex Campos
-Programació API	Alex Campos
-Base de dades	Alex Campos
-Disseny i integració	Alex Campos
+- Unity com a motor gràfic  
+- ASP.NET Core API REST  
+- MySQL per guardar usuaris i progrés  
+
+---
+
+# Requisits del Sistema
+
+| Component | Requisit |
+|---|---|
+| Sistema Operatiu | Windows 10 o superior |
+| Memòria RAM | 4 GB |
+| Processador | Dual Core |
+| Motor gràfic | Compatible amb Unity |
+| Connexió | Internet per utilitzar la API |
+
+---
+
+# Llicència
+
+Aquest projecte està desenvolupat amb finalitats educatives.
