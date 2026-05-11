@@ -30,10 +30,6 @@ Videojoc de plataformes 2D inspirat en l’univers d’Adventure Time, amb siste
 
 # Com Començar
 
-## Executar el joc
-
-En iniciar el joc apareix el menú principal.
-
 ---
 
 ## Crear compte
@@ -47,7 +43,7 @@ Si no tens compte, pots registrar-te des del menú Register.
    - Contrasenya  
 3. Prémer el botó de registre  
 
-<img src="images/IMAGEN2.png" width="500">
+![Register](https://i.imgur.com/eyuWszb.png)
 
 ---
 
@@ -55,13 +51,15 @@ Si no tens compte, pots registrar-te des del menú Register.
 
 Si ja tens compte, entra al menú Login i inicia sessió amb les teves dades.
 
-<img src="images/IMAGEN1.png" width="500">
+![Login](https://i.imgur.com/9k8youz.png)
 
 ---
 
 ## Entrar al joc
 
-Quan el login és correcte, el jugador accedeix automàticament al joc i es carrega el progrés guardat.
+Quan el login és correcte, el jugador accedeix automàticament al joc on es mostra el menú d'inici amb les diferents opcions
+
+![Gameplay](https://i.imgur.com/AA70LZU.png)
 
 ---
 
@@ -79,6 +77,8 @@ El jugador pot atacar enemics amb l’espasa utilitzant Shift esquerre.
 
 Els enemics poden causar dany i reduir la vida del jugador.
 
+![Combat](https://i.imgur.com/WgBmL5J.png)
+
 ---
 
 ## Sistema de vida
@@ -87,11 +87,15 @@ La vida del jugador es mostra a la interfície del joc i disminueix quan rep dan
 
 La informació queda guardada automàticament a la base de dades.
 
+![Controls](https://i.imgur.com/OgXrsvq.png)
+
 ---
 
 ## NPCs i interacció
 
 Durant l’aventura apareixen NPCs amb els quals es pot interactuar per obtenir informació o diàlegs.
+
+![Extra](https://i.imgur.com/vgAS5Vt.png)
 
 ---
 
@@ -104,6 +108,8 @@ El joc guarda automàticament:
 - Escena actual  
 - Estadístiques  
 
+![Menu](https://i.imgur.com/vI9hx3Z.png)
+
 ---
 
 # Sistema d’Ajustos
@@ -112,11 +118,7 @@ El jugador pot modificar diferents opcions del joc com:
 - Volum  
 - Resolució  
 
----
-
-# Escenaris
-
-El joc disposa de diferents nivells i zones connectades entre si.
+![Save System](https://i.imgur.com/5GvRiZD.png)
 
 ---
 
